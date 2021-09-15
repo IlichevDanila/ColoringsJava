@@ -35,7 +35,7 @@ public class ColorList {
         return colors.size();
     }
 
-    //Возвращает из этого списка близжайеший к данному цвету (в смысле евклидового расстояния)
+    //Возвращает из этого списка ближайший к данному цвету (в смысле евклидового расстояния)
     public Color getClosestTo(Color color) {
         double min_dst = -1.0;
         double dst;
